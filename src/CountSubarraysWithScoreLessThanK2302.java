@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class CountSubarraysWithScoreLessThanK {
+public class CountSubarraysWithScoreLessThanK2302 {
     
 public static void main (String[] args){
 
@@ -24,7 +24,7 @@ public static long countSubarrays(int[] nums, long k) {
     int leftP=0;
     int rightP=0;
     long sum =0;
-    long score =0;
+   
     Queue<Integer> windowSumIndex = new LinkedList<>();
 
     while(rightP<nums.length){

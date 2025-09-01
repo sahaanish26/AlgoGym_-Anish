@@ -192,12 +192,15 @@ public class DecodeWays91 {
                     int numberOfWay1 =0;
                     int numberofWay2=0;
                     if(Integer.parseInt(firstChoice.toString())>0){
+
                    chosen.add(firstChoice.toString());
                    choices.remove(0);
                    numberOfWay1 =combineHelperOneOrTwoAtaTimeIntDP(chosen,choices,res,cacheMap);
                    chosen.remove(chosen.size()-1);
                    choices.add(0,firstChoice);
                     }
+
+                    
                     String twoCharactersTogether = firstChoice.toString()+secondChoice.toString();
         
                     if(Integer.parseInt(twoCharactersTogether)<=26 && Integer.parseInt(twoCharactersTogether)>=10 ){

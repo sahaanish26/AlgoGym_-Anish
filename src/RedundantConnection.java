@@ -69,7 +69,8 @@ class UnionFind {
 
             return false;
         }
-        if( numberOfNodesMap.get(parentOfFirstNode)>= numberOfNodesMap.get(secondNode)){
+
+        if( numberOfNodesMap.get(parentOfFirstNode)>= numberOfNodesMap.get(parentOfSecondNode)){
             childToParentMap.put(secondNode,parentOfFirstNode);
             numberOfNodesMap.put(parentOfFirstNode,numberOfNodesMap.get(parentOfFirstNode)+1);
             numberOfNodesMap.put(parentOfSecondNode,numberOfNodesMap.get(parentOfSecondNode)-1);

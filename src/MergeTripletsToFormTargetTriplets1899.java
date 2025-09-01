@@ -63,7 +63,7 @@ public class MergeTripletsToFormTargetTriplets1899 {
         
     }
     
-
+    //this is more aligned to how merge interval problems are done.
     public static  boolean mergeTriplets1(int[][] triplets, int[] target) {
         Deque<int[]> possibleMergedTriplet = new LinkedList<>();
         if(triplets.length==1){
@@ -75,6 +75,7 @@ public class MergeTripletsToFormTargetTriplets1899 {
          }
         }
         int startP=1;
+        //unlike traditional merge interval problem we are not sorting the input array
         possibleMergedTriplet.add(triplets[0]);
  
         while(startP<triplets.length){
@@ -92,10 +93,10 @@ public class MergeTripletsToFormTargetTriplets1899 {
              return true;
          }
         }else{
-         // if the current triplet in queue is invalid pop it and add the triplet from original list
+         // if the current triplet in queue is invalid [pop it - not mandatory] and add the triplet from original list at last in queue
          if(firstTriplet[0]>target[0]||firstTriplet[1]>target[1] ||firstTriplet[2]>target[2] ){
  
-             possibleMergedTriplet.pollLast();
+            // possibleMergedTriplet.pollLast();
             // int[] mergedTriplet = new int[3];
             // mergedTriplet[0] = secondTriplet[0];
             // mergedTriplet[1] = secondTriplet[1];

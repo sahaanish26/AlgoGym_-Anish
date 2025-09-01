@@ -17,7 +17,15 @@ public class Combinations77 {
         // System.out.println(resultSets);
 
 
-        System.out.println("Final result"+ combine(1,1) );
+      //  System.out.println("Final result"+ combine(1,1) );
+        List<List<String>> result = new ArrayList<>();
+        String s = "11106";
+        List<Character> choices = new ArrayList<>();
+        for (int i=0 ; i<s.length();i++){
+            choices.add(s.charAt(i));
+        }
+        combineHelperOneOrTwoAtaTime(new ArrayList(), choices, result, 0);
+        System.out.println(result);
 
     }
 
@@ -54,6 +62,66 @@ public class Combinations77 {
            chosen.remove(chosen.size()-1);
            choices.add(0,firstChoice);
 
+        }
+    }
+
+
+    private static void combineHelperOneOrTwoAtaTime(List<String> chosen, List<Character> choices, List<List<String>> res, int k) {
+       
+       
+       
+        if(choices.size() == 0) {
+            res.add(new ArrayList<>(chosen));
+        } else if ( choices.size() >1) {
+            //check f
+            // chose explore unchoose without selecting first choice
+           Character firstChoice = choices.get(0);
+           Character secondChoice = choices.get(1);
+           //consider the choice is not there
+           //choices.remove(0);
+          // combineHelperOneOrTwoAtaTime(chosen,choices,res,k);
+           //choices.add(0,firstChoice);
+
+            // chose explore unchoose with selecting first choice
+            if(Integer.parseInt(firstChoice.toString())>0){
+           chosen.add(firstChoice.toString());
+           choices.remove(0);
+           combineHelperOneOrTwoAtaTime(chosen,choices,res,k);
+           chosen.remove(chosen.size()-1);
+           choices.add(0,firstChoice);
+            }
+            String twoCharactersTogether = firstChoice.toString()+secondChoice.toString();
+
+            if(Integer.parseInt(twoCharactersTogether)<=26 && Integer.parseInt(twoCharactersTogether)>=10 ){
+           chosen.add(firstChoice.toString()+secondChoice.toString());
+           
+           choices.remove(0);
+           choices.remove(0);
+           combineHelperOneOrTwoAtaTime(chosen,choices,res,k);
+           chosen.remove(chosen.size()-1);
+           //chosen.remove(chosen.size()-1);
+           choices.add(0,firstChoice);
+           choices.add(1,secondChoice);
+            }
+
+        }
+        else if ( choices.size()==1) {
+            // chose explore unchoose without selecting first choice
+           Character firstChoice = choices.get(0);
+           
+           //consider the choice is not there
+           //choices.remove(0);
+          // combineHelperOneOrTwoAtaTime(chosen,choices,res,k);
+           //choices.add(0,firstChoice);
+
+            // chose explore unchoose with selecting first choice
+            if(Integer.parseInt(firstChoice.toString())>0){
+           chosen.add(firstChoice.toString());
+           choices.remove(0);
+           combineHelperOneOrTwoAtaTime(chosen,choices,res,k);
+           chosen.remove(chosen.size()-1);
+           choices.add(0,firstChoice);
+            }
         }
     }
 }

@@ -36,8 +36,10 @@ public class CombinationSum39 {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello and welcome!");
-        int[] intArray = new int[]{ 1,3,2};
-        int target = 7;
+       // int[] intArray = new int[]{ 1,3,2};
+       // int target = 7;
+        int[] intArray = new int[]{ 1,2,5};
+        int target = 5;
         // choices.add(1);
         // choices.add(3);
         // choices.add(5);
@@ -91,6 +93,7 @@ public class CombinationSum39 {
             combinationSumHelper(choices,chosen,resultSets,target-firstChoice);
             //unchoose
             chosen.remove(chosen.size()-1);
+            
 
         }
     }

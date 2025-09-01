@@ -17,7 +17,6 @@ public class LongestConsecutiveSequence128 {
     public static int longestConsecutive(int[] nums) {
 
         Set<Integer> numberSet= new HashSet();
-        int currentSequenceLength= 1;
         int maxSeqLength=1;
 
         for(int i=0;i<nums.length;i++){
@@ -32,7 +31,7 @@ public class LongestConsecutiveSequence128 {
                 Queue sequence= new LinkedList<>();
                 
                 int startofSeq=num;
-                
+                //increae the current sequence as long as it is in the set.
                 while(numberSet.contains(startofSeq)){
                     sequence.add(startofSeq);
                     startofSeq++;

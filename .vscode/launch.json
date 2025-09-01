@@ -1,0 +1,903 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CoinChange322",
+            "request": "launch",
+            "mainClass": "DP.CoinChange322",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLongestSSsumtotarget2915",
+            "request": "launch",
+            "mainClass": "DP.LengthOfLongestSSsumtotarget2915",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLongestSSsumtotarget",
+            "request": "launch",
+            "mainClass": "DP.LengthOfLongestSSsumtotarget",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CountOFSubsets",
+            "request": "launch",
+            "mainClass": "CountOFSubsets",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PartitionEqualSubSetSum416",
+            "request": "launch",
+            "mainClass": "DP.PartitionEqualSubSetSum416",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementI496",
+            "request": "launch",
+            "mainClass": "Stack.NextGreaterElementI496",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStockV3573",
+            "request": "launch",
+            "mainClass": "DP.BestTimeToBuyAndSellStockV3573",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ReConstructItenery332",
+            "request": "launch",
+            "mainClass": "DFS.ReConstructItenery332",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "UniquePathsii980",
+            "request": "launch",
+            "mainClass": "DFS.UniquePathsii980",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinIntervalToIncludeEachQuery1851",
+            "request": "launch",
+            "mainClass": "TwoHeaps.MinIntervalToIncludeEachQuery1851",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "DesignAddAndSearchWordDs211",
+            "request": "launch",
+            "mainClass": "Trie.DesignAddAndSearchWordDs211",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PrefixTree208",
+            "request": "launch",
+            "mainClass": "Trie.PrefixTree208",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NetworkDelayTime743",
+            "request": "launch",
+            "mainClass": "Dijkstras.NetworkDelayTime743",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinCostToConnectAllPoints1584",
+            "request": "launch",
+            "mainClass": "Prims.MinCostToConnectAllPoints1584",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "DesignTwitter355",
+            "request": "launch",
+            "mainClass": "OOP.DesignTwitter355",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SwimInRisingWater778",
+            "request": "launch",
+            "mainClass": "BinarySearch.SwimInRisingWater778",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "DistinctSubsequences115",
+            "request": "launch",
+            "mainClass": "DP.DistinctSubsequences115",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum39",
+            "request": "launch",
+            "mainClass": "Backtracking.CombinationSum39",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CombinatiosSumii40",
+            "request": "launch",
+            "mainClass": "Backtracking.CombinatiosSumii40",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "RegularExpressionMatching",
+            "request": "launch",
+            "mainClass": "DP.RegularExpressionMatching",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingPathInMatrix329",
+            "request": "launch",
+            "mainClass": "DP.LongestIncreasingPathInMatrix329",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "WordSearchii212",
+            "request": "launch",
+            "mainClass": "DFS.WordSearchii212",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellWCooldown309",
+            "request": "launch",
+            "mainClass": "DP.BestTimeToBuyAndSellWCooldown309",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "InterleavingScreen97",
+            "request": "launch",
+            "mainClass": "DP.InterleavingScreen97",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "TargetSum494",
+            "request": "launch",
+            "mainClass": "DP.TargetSum494",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PartiitonLabels763",
+            "request": "launch",
+            "mainClass": "TwoPointers.PartiitonLabels763",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "HandOfStraights846",
+            "request": "launch",
+            "mainClass": "Greedy.HandOfStraights846",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "HappyNumber",
+            "request": "launch",
+            "mainClass": "HappyNumber",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LastStoneWeight1046",
+            "request": "launch",
+            "mainClass": "TwoHeaps.LastStoneWeight1046",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "EvaluateReversePolishNotification150",
+            "request": "launch",
+            "mainClass": "Stack.EvaluateReversePolishNotification150",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MaximumSubArray",
+            "request": "launch",
+            "mainClass": "MaximumSubArray",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfArrayExceptSelf238",
+            "request": "launch",
+            "mainClass": "ProductOfArrayExceptSelf238",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubstring76",
+            "request": "launch",
+            "mainClass": "SlidingWindow.MinimumWindowSubstring76",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "SlidingWindow.MinimumWindowSubstring",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "GraphValidTree261",
+            "request": "launch",
+            "mainClass": "DFS.GraphValidTree261",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonSubsequence1143",
+            "request": "launch",
+            "mainClass": "DP.LongestCommonSubsequence1143",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PallindromicSubstrings647",
+            "request": "launch",
+            "mainClass": "DP.PallindromicSubstrings647",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "palindromepartitioning131",
+            "request": "launch",
+            "mainClass": "Backtracking.palindromepartitioning131",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNodesinKGroup25",
+            "request": "launch",
+            "mainClass": "TwoPointers.LinkedList.ReverseNodesinKGroup25",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "RestoreIpAddresses93",
+            "request": "launch",
+            "mainClass": "Backtracking.RestoreIpAddresses93",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfProvinces547",
+            "request": "launch",
+            "mainClass": "DFS.NumberOfProvinces547",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MergeInterval56",
+            "request": "launch",
+            "mainClass": "Interval.MergeInterval56",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "RottingOrange994",
+            "request": "launch",
+            "mainClass": "BFS.RottingOrange994",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MaximumCandiesAllocatedTokChildren2226",
+            "request": "launch",
+            "mainClass": "BinarySearch.MaximumCandiesAllocatedTokChildren2226",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "AlienDictionary",
+            "request": "launch",
+            "mainClass": "BFS.AlienDictionary",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SearchInRotatedSortedArrayii81",
+            "request": "launch",
+            "mainClass": "BinarySearch.SearchInRotatedSortedArrayii81",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "FindMinimunInRotatedSortedArray153",
+            "request": "launch",
+            "mainClass": "BinarySearch.FindMinimunInRotatedSortedArray153",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "findtargetindicesaftersortingarray2089",
+            "request": "launch",
+            "mainClass": "BinarySearch.findtargetindicesaftersortingarray2089",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepeatingCharacters3Copy",
+            "request": "launch",
+            "mainClass": "SlidingWindow.LongestSubstringWithoutRepeatingCharacters3Copy",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepeatingCharacters3",
+            "request": "launch",
+            "mainClass": "SlidingWindow.LongestSubstringWithoutRepeatingCharacters3",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayProductLessThanK713",
+            "request": "launch",
+            "mainClass": "SubarrayProductLessThanK713",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CourseScheduleII210",
+            "request": "launch",
+            "mainClass": "CourseScheduleII210",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ConnectingCitiesWithMinimumCost1135",
+            "request": "launch",
+            "mainClass": "ConnectingCitiesWithMinimumCost1135",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PermutationsII47",
+            "request": "launch",
+            "mainClass": "PermutationsII47",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NQueensTwo52",
+            "request": "launch",
+            "mainClass": "NQueensTwo52",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AllPathsFromSourceToTarget797",
+            "request": "launch",
+            "mainClass": "AllPathsFromSourceToTarget797",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRankTransform1331",
+            "request": "launch",
+            "mainClass": "ArrayRankTransform1331",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStock121",
+            "request": "launch",
+            "mainClass": "BestTimeToBuyAndSellStock121",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch704",
+            "request": "launch",
+            "mainClass": "BinarySearch704",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeLevelOrderTraversalII107",
+            "request": "launch",
+            "mainClass": "BinaryTreeLevelOrderTraversalII107",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CheapestFlightWithKStops787",
+            "request": "launch",
+            "mainClass": "CheapestFlightWithKStops787",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange322",
+            "request": "launch",
+            "mainClass": "CoinChange322",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangeII518",
+            "request": "launch",
+            "mainClass": "CoinChangeII518",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum216",
+            "request": "launch",
+            "mainClass": "CombinationSum216",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum39",
+            "request": "launch",
+            "mainClass": "CombinationSum39",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum40",
+            "request": "launch",
+            "mainClass": "CombinationSum40",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "Combinations77",
+            "request": "launch",
+            "mainClass": "Combinations77",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CountCompleteSubarraysInAnArray2799",
+            "request": "launch",
+            "mainClass": "CountCompleteSubarraysInAnArray2799",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CountDaysWithoutMeeting3169",
+            "request": "launch",
+            "mainClass": "CountDaysWithoutMeeting3169",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberofNiceSubArrays1248",
+            "request": "launch",
+            "mainClass": "CountNumberofNiceSubArrays1248",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "CountSubarraysWithScoreLessThanK2302",
+            "request": "launch",
+            "mainClass": "CountSubarraysWithScoreLessThanK2302",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "DecodeWays91",
+            "request": "launch",
+            "mainClass": "DecodeWays91",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "DeleteMiddleOfALinkedList2095",
+            "request": "launch",
+            "mainClass": "DeleteMiddleOfALinkedList2095",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "FindtheKthLargestIntegerintheArray1985",
+            "request": "launch",
+            "mainClass": "FindtheKthLargestIntegerintheArray1985",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "InsertInterval57",
+            "request": "launch",
+            "mainClass": "InsertInterval57",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "IsGraphBipartite785",
+            "request": "launch",
+            "mainClass": "IsGraphBipartite785",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "IslandPerimeter463",
+            "request": "launch",
+            "mainClass": "IslandPerimeter463",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "JumpGameII45",
+            "request": "launch",
+            "mainClass": "JumpGameII45",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "KokoEatingBananas875",
+            "request": "launch",
+            "mainClass": "KokoEatingBananas875",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LongestConsecutiveSequence128",
+            "request": "launch",
+            "mainClass": "LongestConsecutiveSequence128",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "LongestRepeatingCharacterReplacement",
+            "request": "launch",
+            "mainClass": "LongestRepeatingCharacterReplacement",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MaxAreaOfIsland695",
+            "request": "launch",
+            "mainClass": "MaxAreaOfIsland695",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MaximumLevelSumBinaryTree1161",
+            "request": "launch",
+            "mainClass": "MaximumLevelSumBinaryTree1161",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MeetingRooms252",
+            "request": "launch",
+            "mainClass": "MeetingRooms252",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MergeTripletsToFormTargetTriplets1899",
+            "request": "launch",
+            "mainClass": "MergeTripletsToFormTargetTriplets1899",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinCostClimbingStairs746",
+            "request": "launch",
+            "mainClass": "MinCostClimbingStairs746",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinCostToConnectAllPoints1584",
+            "request": "launch",
+            "mainClass": "MinCostToConnectAllPoints1584",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinimumHeightTrees310",
+            "request": "launch",
+            "mainClass": "MinimumHeightTrees310",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubstring76",
+            "request": "launch",
+            "mainClass": "MinimumWindowSubstring76",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "MultiplyStrings43",
+            "request": "launch",
+            "mainClass": "MultiplyStrings43",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NQueens51",
+            "request": "launch",
+            "mainClass": "NQueens51",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NetworkDelayTime743",
+            "request": "launch",
+            "mainClass": "NetworkDelayTime743",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NonOverlapppingIntervals435",
+            "request": "launch",
+            "mainClass": "NonOverlapppingIntervals435",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "NumberOf1Bit191",
+            "request": "launch",
+            "mainClass": "NumberOf1Bit191",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PacificAtlanticWaterFlow417",
+            "request": "launch",
+            "mainClass": "PacificAtlanticWaterFlow417",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PartitionEqualSubsetSum416",
+            "request": "launch",
+            "mainClass": "PartitionEqualSubsetSum416",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PartitiontoKEqualSumSubsets698",
+            "request": "launch",
+            "mainClass": "PartitiontoKEqualSumSubsets698",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PathWithMaximumProb1514",
+            "request": "launch",
+            "mainClass": "PathWithMaximumProb1514",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PermutationInString567",
+            "request": "launch",
+            "mainClass": "PermutationInString567",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne66",
+            "request": "launch",
+            "mainClass": "PlusOne66",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "RedundantConnection",
+            "request": "launch",
+            "mainClass": "RedundantConnection",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "RemoveNthNodeFromEndOfList19",
+            "request": "launch",
+            "mainClass": "RemoveNthNodeFromEndOfList19",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ReorderList143",
+            "request": "launch",
+            "mainClass": "ReorderList143",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNodesinKGroup25",
+            "request": "launch",
+            "mainClass": "ReverseNodesinKGroup25",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "RottingOranges994",
+            "request": "launch",
+            "mainClass": "RottingOranges994",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SearchA2DMatrix",
+            "request": "launch",
+            "mainClass": "SearchA2DMatrix",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SearchInsertPosition35",
+            "request": "launch",
+            "mainClass": "SearchInsertPosition35",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SetMatrixZeroes73",
+            "request": "launch",
+            "mainClass": "SetMatrixZeroes73",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ShortestSubarraywithSumatLeastK862",
+            "request": "launch",
+            "mainClass": "ShortestSubarraywithSumatLeastK862",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SingleNumber136",
+            "request": "launch",
+            "mainClass": "SingleNumber136",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SubArraysWithKDifferentIntegers992",
+            "request": "launch",
+            "mainClass": "SubArraysWithKDifferentIntegers992",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SubSets78",
+            "request": "launch",
+            "mainClass": "SubSets78",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SubSets90",
+            "request": "launch",
+            "mainClass": "SubSets90",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SubarraySumEqualsK560",
+            "request": "launch",
+            "mainClass": "SubarraySumEqualsK560",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "SubarraySumsDivisiblebyK974",
+            "request": "launch",
+            "mainClass": "SubarraySumsDivisiblebyK974",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "UniquePathii63",
+            "request": "launch",
+            "mainClass": "UniquePathii63",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths62",
+            "request": "launch",
+            "mainClass": "UniquePaths62",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "ValidSudoku35",
+            "request": "launch",
+            "mainClass": "ValidSudoku35",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "WatchedVideosByFriends1311",
+            "request": "launch",
+            "mainClass": "WatchedVideosByFriends1311",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "WordLadderII126",
+            "request": "launch",
+            "mainClass": "WordLadderII126",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "WordSearch79",
+            "request": "launch",
+            "mainClass": "WordSearch79",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "BellMan",
+            "request": "launch",
+            "mainClass": "generic.BellMan",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "Dijikstra",
+            "request": "launch",
+            "mainClass": "generic.Dijikstra",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "GfG",
+            "request": "launch",
+            "mainClass": "generic.GfG",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "Tarjan",
+            "request": "launch",
+            "mainClass": "generic.Tarjan",
+            "projectName": "Practice_91d4abc8"
+        },
+        {
+            "type": "java",
+            "name": "graphTopoSort",
+            "request": "launch",
+            "mainClass": "generic.graphTopoSort",
+            "projectName": "Practice_91d4abc8"
+        }
+    ]
+}

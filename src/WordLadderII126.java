@@ -31,11 +31,40 @@ public class WordLadderII126 {
 
     public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         //IF endWord not in wordList then return empty response
-
-        return findLaddersBfsHelper(beginWord, endWord,wordList);
+        Map<String,Set<String>> blockGraph = new HashMap<>();  
+        List<List<String>> response= findLaddersBfsHelper(beginWord, endWord,wordList,blockGraph);
+        System.out.println("blockGraph***"+blockGraph);
+        int pathLength= response.get(0).size();
+        System.out.println("pathLength***"+pathLength);
+        List<List<String>> allPaths = new ArrayList<>();
+        List<String> path = new ArrayList<>();
+        Set<String> visistedDfs = new HashSet<>();
+        dfsHelper(beginWord,endWord,blockGraph,path,allPaths,pathLength,visistedDfs);
+        return allPaths;
     }
 
-    private static List<List<String>> findLaddersBfsHelper(String beginWord, String endWord, List<String> wordList) {
+    private static void dfsHelper(String beginWord, String endWord, Map<String, Set<String>> blockGraph,
+            List<String> path, List<List<String>> allPaths, int pathLength, Set<String> visistedDfs) {
+
+                path.add(beginWord);
+                visistedDfs.add(beginWord);
+                if(path.size()==pathLength && beginWord.equals(endWord)){
+                    allPaths.add(new ArrayList<>(path));
+                }
+                if (path.size()<pathLength){
+                    Set<String> neighbours = blockGraph.get(beginWord);
+                    for (String neighbour : neighbours) {
+                        if(!visistedDfs.contains(neighbour)){
+                        dfsHelper(neighbour,endWord,blockGraph,path,allPaths,pathLength,visistedDfs);
+                    }}
+                }
+                path.remove(path.size()-1);
+                visistedDfs.remove(beginWord);
+        // TODO Auto-generated method stub
+       // throw new UnsupportedOperationException("Unimplemented method 'dfsHelper'");
+    }
+
+    private static List<List<String>> findLaddersBfsHelper(String beginWord, String endWord, List<String> wordList, Map<String, Set<String>> blockGraph) {
         Queue<Block> queue = new LinkedList<>();
         HashSet<String> visited = new HashSet<>();
         List<String> listPathIncludingSelf = new ArrayList<>();
@@ -44,17 +73,24 @@ public class WordLadderII126 {
         queue.add(startBlock);
         List<List<String>> result = new ArrayList<>();
         int minSoFar=Integer.MAX_VALUE;
+
+        
         while(!queue.isEmpty()){
-            System.out.println("queue"+queue);
+          //  System.out.println("queue"+queue);
             Block currentBlock = queue.poll();
             if(currentBlock.getOwnValue().equals(endWord)){
-                minSoFar= Math.min(currentBlock.getOwnLevel(),minSoFar);
+             
+                //for (Map.Entry<String,Set<String>> entry : blockGraph.entrySet()) {
+                 //   System.out.println("     block key  "+entry.getKey()+ " block value "+entry.getValue() + "   ");
+               // }
+               /* minSoFar= Math.min(currentBlock.getOwnLevel(),minSoFar);
                 if(currentBlock.getOwnLevel()<=minSoFar){
                     result.add(new ArrayList<>(currentBlock.getPathIncludingSelf())) ;
                 }else{
                     return result;
-                }
-
+                }*/
+                result.add(new ArrayList<>(currentBlock.getPathIncludingSelf())) ;
+                return result;
             }
             visited.add(currentBlock.getOwnValue());
             int currentNodeLevel = currentBlock.getOwnLevel();
@@ -67,8 +103,18 @@ public class WordLadderII126 {
                 newneighbourPathIncludingSelf.add(neighbourString);
                 Block neighbourBlock = new Block(neighbourString,currentNodeLevel+1,newneighbourPathIncludingSelf);
                 queue.add(neighbourBlock);
+                 if (blockGraph.containsKey(currentBlock.getOwnValue())){
+                    blockGraph.get(currentBlock.getOwnValue()).add(neighbourBlock.getOwnValue());
+                }
+                else{
+                    Set<String> adjacencyList = new HashSet<>();
+                    adjacencyList.add(neighbourBlock.getOwnValue());
+                    blockGraph.put(currentBlock.getOwnValue(),adjacencyList);
+                }
             }
         }
+     
+        
 
         return result;
 
